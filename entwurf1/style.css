@@ -1,0 +1,25 @@
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: navy;
+}
+body {
+    background-image: url("images/hintergrund.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    background-color: grey;
+}
+nav {
+    background-color: grey;
+}
+footer {
+    background-color: grey;
+}
