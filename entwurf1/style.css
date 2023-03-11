@@ -46,6 +46,7 @@ html, body {
             max-width: 60rem;
             margin: 0 auto;
             border: 2px solid red;
+            background-color: yellow;
         }
 
     .main-footer {
