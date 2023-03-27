@@ -3,18 +3,31 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
+  <title>Startseite | Gemeinde Tiddische</title>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="canonical" href="https://www.mauricebove.de" />
+  <meta property="og:title" content="Startseite | Gemeinde Tiddische" />
+  <meta property="og:description" content="Die offizielle Website der Gemeinde Tiddische" />
+  <meta property="og:url" content="https://www.mauricebove.de" />
+  <meta property="og:site_name" content="Gemeinde Tiddische" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Startseite | Gemeinde Tiddische" />
+  <meta name="twitter:description" content="Die offizielle Website der Gemeinde Tiddische" />
+  <meta name="twitter:image" content="https://www.mauricebove.de/images/wappen.png" />
+  <meta name="description" content="Offizielle Website der Gemeinde Tiddische">
+  <meta name="keywords" content="Tiddische, Hoitlingen, Brome">
+  <meta name="author" content="Maurice Bove">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
-  <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js" defer></script>
 </head>
 
 <body>
+
+  <!-- Kopfzeile -->
   <header class="primary-header">
     <div class="container">
       <div class="nav-wrapper">
@@ -29,150 +42,127 @@
         </button>
         <nav class="primary-navigation" id="primary-navigation">
           <ul aria-label="Primary" role="list" class="nav-list">
-            <li><a href="#">Aktuelles</a></li>
-            <li><a href="#">Veranstaltungen</a></li>
-            <li><a href="#">Vereine</a></li>
-            <li><a href="#">Ratsmitglieder</a></li>
-            <li><a href="#">Bauen</a></li>
-            <li><a href="#">Kontakt</a></li>
+            <li><a href="aktuelles.html">Aktuelles</a></li>
+            <li><a href="veranstaltungen.html">Veranstaltungen</a></li>
+            <li><a href="vereine.html">Vereine</a></li>
+            <li><a href="ratsmitglieder.html">Ratsmitglieder</a></li>
+            <li><a href="bauen.html">Bauen</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </header>
 
+  <!-- Hauptteil -->
   <main>
-    <section class="hero | text-center-sm-only padding-block-900">
+    <section class="hero | text-center-sm-only padding-block-700">
       <div class="container">
         <div class="even-columns">
           <div class="flow">
             <h1 class="fs-primary-heading fw-bold">Willkommen in der Gemeinde Tiddische</h1>
-            <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in
-              view.</p>
-            <button class="button">Get Started</button>
+            <p>Die Gemeinde Tiddische liegt am Fuße des Drömling im Vorsfelder Werder.
+              In ruhiger Lage aber nicht Abseits der großen Städte.</p>
+            <a class="button" href="gemeinde.html">MEHR ERFAHREN</a>
           </div>
           <div class="hero__image">
-            <img class="mx-auto" src="images/illustration-intro.svg" alt="">
+            <img class="mx-auto" src="images/wappen.png" alt="">
           </div>
         </div>
       </div>
     </section>
 
-    <section class="sales-points | padding-block-900">
+    <section class="sales-points | padding-block-700">
       <div class="container">
         <div class="even-columns">
+
+          <!-- Veranstaltungen -->
           <div class="sales-points__blob | flow text-center-sm-only" style="--flow-spacer: 1.5rem">
-            <h2 class="fs-secondary-heading fw-bold">What’s different about Manage?</h2>
-            <p>Manage provides all the functionality your team needs, without the complexity. Our software is
-              tailor-made for modern
-              digital product teams.</p>
+            <h2 class="fs-secondary-heading fw-bold">Veranstaltungen</h2>
+            <img src="images/dart.jpg" alt="">
+            <!-- <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+              et dolore magna aliquyam erat,</p> -->
+            <a href="veranstaltungen.html">Mehr...</a>
           </div>
-          <div>
+
+          <!-- Aktuelles -->
+          <div class="flow text-center-sm-only" style="--flow-spacer: 1.5rem">
+            <h2 class="fs-secondary-heading fw-bold">Aktuelles</h2>
             <ul class="numbered-items | flow" role="list">
               <li>
                 <div class="flow" style="--flow-spacer: 1em">
-                  <h3 class="numbered-items__title | fs-600 fw-bold">Track company-wide progress</h3>
-                  <p class="numbered-items__body" data-width="wide">See how your day-to-day tasks fit into the wider
-                    vision. Go from tracking
-                    progress at the milestone
-                    level all the way
-                    done to the smallest of details. Never lose sight of the bigger picture again.</p>
+                  <h3 class="numbered-items__title | fs-600 fw-bold">Einladung Gemeinderatssitzung</h3>
+                  <p class="numbered-items__body" data-width="wide">Hiermit lade ich zur 19. Gemeinderatssitzung -
+                    öffentlich - am <strong>Montag, den 27.03.2023 um 18:30 Uhr</strong> in das
+                    <strong>Dorfgemeinschaftshaus Hoitlingen</strong> ein.
+                    <br><a href="aktuelles.html">Mehr...</a>
+                  </p>
                 </div>
               </li>
               <li>
                 <div class="flow" style="--flow-spacer: 1em">
-                  <h3 class="numbered-items__title | fs-600 fw-bold">Advanced built-in reports</h3>
-                  <p class="numbered-items__body" data-width="wide">Set internal delivery estimates and track progress
-                    toward company goals. Our
-                    customisable dashboard
-                    helps you build out
-                    the reports you need to keep key stakeholders informed.</p>
-
+                  <h3 class="numbered-items__title | fs-600 fw-bold">Infoveranstaltung Quartierskonzepte</h3>
+                  <p class="numbered-items__body" data-width="wide">Am Freitag, den <strong>24.03.2023</strong>
+                    informieren wir um <strong>18.30 Uhr</strong> im Dorfgemeinschaftshaus Hoitlingen mit unseren
+                    Partnern energethik-ingenieure und
+                    BCS Stadt + Region über die Ergebnisse der Haushaltsbefragungen, eine Bestandsanalyse im
+                    Wärmesektor, über
+                    Konzeptansätze und umsetzbare Konzepte für eine Nahwärmeversorgung in unseren beiden Ortsteilen samt
+                    darstellbarer, finanzieller Konditionen
+                    <br><a href="aktuelles.html">Mehr...</a>
+                  </p>
                 </div>
               </li>
               <li>
                 <div class="flow" style="--flow-spacer: 1em">
-                  <h3 class="numbered-items__title | fs-600 fw-bold">Everything you need in one place</h3>
-                  <p class="numbered-items__body" data-width="wide">Stop jumping from one service to another to
-                    communicate, store files, track tasks
-                    and share
-                    documents. Manage offers an
-                    all-in-one team productivity solution.</p>
-
+                  <h3 class="numbered-items__title | fs-600 fw-bold">Glasfasererschließung Giffinet</h3>
+                  <p class="numbered-items__body" data-width="wide">Was lange währt, geht endlich los - am
+                    <strong>20.02.2023</strong>
+                    beginnt die Giffinet mit Ihren Partnern mit der Verlegung der passiven Infrastruktur
+                    (Leerrohranlagen) in der Gemeinde Tiddische.
+                    <br><a href="aktuelles.html">Mehr...</a>
+                  </p>
                 </div>
               </li>
             </ul>
           </div>
+
         </div>
       </div>
     </section>
 
-    <!-- <section class="carousel | padding-block-900  text-center">
-      <h2 class="fs-secondary-heading fw-bold">What they've said</h2>
-      
-      <ul class="slider">
-        <li>
-          <img src="images/avatar-anisha.png" alt="">
-
-          <div class="slider-content | flow" style="--flow-spacer: 1rem">
-            <h3 class="fw-bold">Anisha Li</h3>
-            <p data-width="wide">“Manage has supercharged our team’s workflow. The ability to maintain visibility on
-              larger milestones at all times keeps
-              everyone motivated.”</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/avatar-ali.png" alt="">
-
-          <div class="slider-content | flow" style="--flow-spacer: 1rem">
-            <h3 class="fw-bold">Ali Bravo</h3>
-            <p data-width="wide">“We have been able to cancel so many other subscriptions since using Manage. There is
-              no
-              more cross-channel
-              confusion
-              and everyone is much more focused.”</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/avatar-richard.png" alt="">
-
-          <div class="slider-content | flow" style="--flow-spacer: 1rem">
-            <h3 class="fw-bold">Richard Watts</h3>
-            <p data-width="wide">“Manage allows us to provide structure and process. It keeps us organized and focused.
-              I
-              can’t stop recommending them to
-              everyone I talk to!” </p>
-          </div>
-        </li>
-        <li>
-          <img src="images/avatar-shanai.png" alt="">
-
-          <div class="slider-content | flow" style="--flow-spacer: 1rem">
-            <h3 class="fw-bold">Shanai Gough</h3>
-            <p data-width="wide">“Their software allows us to track, manage and collaborate on our projects from
-              anywhere.
-              It keeps the whole team
-              in-sync without being intrusive.” </p>
-          </div>
-        </li>
-      </ul>
-      <button class="button">Get Started</button>
-    </section> -->
-
-    <section class="cta | margin-top-900 padding-block-900 bg-accent-400 text-neutral-100">
+    <!-- Sprech- und Öffnungszeiten -->
+    <section class="cta | margin-top-900 padding-block-700 bg-accent-400 text-neutral-100">
       <div class="container">
-        <div class="even-columns vertical-align-center">
-          <div>
-            <p class="fs-primary-heading fw-bold">Simplify how your team works today.</p>
+        <div class="even-columns">
+          <div class="flow text-center" style="--flow-spacer: 1.5rem">
+            <h2 class="fs-small-heading fw-bold">Sprechzeiten des<br>Bürgermeisters</h2>
+            <p>
+              Montag im DGH Hoitlingen<br>
+              18:15 - 19:15 Uhr<br>
+              im Bürgerhaus Tiddische<br>
+              19:30 - 20:30 Uhr
+            </p>
           </div>
-          <div class="justify-self-end-md">
-            <button class="button" data-type="inverted">Kontakt</button>
+          <div class="flow text-center" style="--flow-spacer: 1.5rem">
+            <h2 class="fs-small-heading fw-bold">Öffnungszeiten<br>Gemeindebüro</h2>
+            <p>
+              Montag, Dienstag und Donnerstag<br>
+              8:00 - 12:00 Uhr
+            </p>
           </div>
         </div>
       </div>
+      <div class="container text-center | margin-top-500">
+        <div class="justify-self-end-md">
+          <a class="button" data-type="inverted" href="kontakt.html">Kontakt</a>
+        </div>
+      </div>
     </section>
+
   </main>
 
+  <!-- Fußzeile -->
   <footer class="primary-footer | padding-block-700 bg-neutral-900 text-neutral-100">
     <div class="container">
       <div class="primary-footer__wrapper">
@@ -183,58 +173,24 @@
           </a>
         </a>
 
-        <!-- <ul class="social-list" role="list" aria-label="Social links">
-          <li><a aria-label="facebook" href="#">
-              <svg class="social-icon">
-                <use xlink:href="images/social-icons.svg#icon-facebook"></use>
-              </svg></a>
-          </li>
-          <li><a aria-label="youtube" href="#">
-              <svg class="social-icon">
-                <use xlink:href="images/social-icons.svg#icon-youtube"></use>
-              </svg>
-            </a></li>
-          <li><a aria-label="twitter" href="#">
-              <svg class="social-icon">
-                <use xlink:href="images/social-icons.svg#icon-twitter"></use>
-              </svg>
-            </a></li>
-          <li><a aria-label="pinterest" href="#">
-              <svg class="social-icon">
-                <use xlink:href="images/social-icons.svg#icon-pinterest"></use>
-              </svg>
-            </a></li>
-          <li><a aria-label="instragram" href="#">
-              <svg class="social-icon">
-                <use xlink:href="images/social-icons.svg#icon-instagram"></use>
-              </svg>
-            </a></li>
-        </ul> -->
-
         <div class="primary-footer__nav-wrapper">
           <nav class="footer-nav">
             <ul class="flow" style="--flow-spacer: 1em" aria-label="Footer" role="list">
-              <li><a href="#">Aktuelles</a></li>
-              <li><a href="#">Veranstaltungen</a></li>
-              <li><a href="#">Vereine</a></li>
-              <li><a href="#">Ratsmitglieder</a></li>
-              <li><a href="#">Bauen</a></li>
-              <li><a href="#">Kontakt</a></li>
+              <li><a href="aktuelles.html">Aktuelles</a></li>
+              <li><a href="veranstaltungen.html">Veranstaltungen</a></li>
+              <li><a href="vereine.html">Vereine</a></li>
+              <li><a href="ratsmitglieder.html">Ratsmitglieder</a></li>
+              <li><a href="bauen.html">Bauen</a></li>
+              <li><a href="kontakt.html">Kontakt</a></li>
+              <li><a href="impressum.html">Impressum</a></li>
             </ul>
           </nav>
         </div>
-        <!-- <form class="primary-footer__form" action="">
-          <input type="email">
-          <button class="button" data-shadow="none">Go</button>
-        </form> -->
-        <!-- <p class="primary-footer__copyright">Copyright 2020. All Rights Reserved</p> -->
       </div>
     </div>
   </footer>
 
-
   <script src="main.js"></script>
-  <!-- <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js"></script> -->
 </body>
 
 </html>
