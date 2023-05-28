@@ -59,9 +59,61 @@
     <section class="hero | text-center-sm-only padding-block-700">
       <div class="container">
         <h2 class="text-center | fs-secondary-heading fw-bold margin-bottom-700">Kontakt</h2>
-        <div class="even-columns">
+        <div class="even-rows">
+          <div class="even-columns">
 
+            <div>
+              <p>
+                Bei Fragen und Anmerkungen schreiben Sie uns gerne eine E-Mail, rufen an oder kommen
+                während der Öffnungszeiten des Gemeindebüros vorbei.
+              </p>
+            </div>
+            <div class="slider-content | flow" style="--flow-spacer: 1rem">
+              <img src="images/avatars/langer_x.webp" alt="">
+              <h3 class="fw-bold">Ina Langer<br>Leitung</h3>
+              <p data-width="wide">
+                <a href="mailto:gemeinde.tiddische@t-online.de">gemeinde.tiddische@t-online.de</a><br>
+                Tel: +49 5366 969943
+              </p>
+            </div>
+            <div>
+              <div class="margin-bottom-400">
+                <h3 class="fw-bold">Gemeindebüro Tiddische</h3>
+                <p>
+                  Gorering 18, 38473 Tiddische
+                </p>
+                <p>
+                  Öffnungszeiten: Montag, Dienstag und Donnerstag<br>8:00 - 12:00 Uhr
+                </p>
+              </div>
+              <div class="margin-bottom-400">
+                <h3 class="fw-bold">Bürgerhaus Tiddische</h3>
+                <p>
+                  Gorering 18, 38473 Tiddische
+                </p>
+                <p>
+                  Sprechzeiten des Bürgermeisters:<br>Montag 19:30 - 20:30 Uhr
+                </p>
+              </div>
+              <div class="margin-bottom-400">
+                <h3 class="fw-bold">Dorfgemeinschaftshaus Hoitlingen</h3>
+                <p>
+                  Am Sportplatz 4, 38473 Tiddische
+                </p>
+                <p>
+                  Sprechzeiten des Bürgermeisters:<br>Montag 18:15 - 19:15 Uhr
+                </p>
+              </div>
+              <div class="margin-bottom-400">
+                <h3 class="fw-bold">Postadresse</h3>
+                <p>
+                  Am Sportplatz 11, 38473 Tiddische
+                </p>
+              </div>
+            </div>
+          </div>
 
+          <div id="map"></div>
 
         </div>
       </div>
@@ -129,6 +181,9 @@
   </footer>
 
   <script src="main.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+    defer></script>
 </body>
 
 </html>

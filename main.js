@@ -10,6 +10,24 @@ navToggle.addEventListener("click", () => {
   primaryHeader.toggleAttribute("data-overlay");
 });
 
+// Initialize and add the map
+function initMap() {
+  // The location of Gemeindebüro Tiddische
+  const gemeindebüro = { lat: 52.520442765266374, lng: 10.807354975862365 };
+  // The map, centered at Gemeindebüro Tiddische
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 15,
+    center: gemeindebüro,
+  });
+  // The marker, positioned at Gemeindebüro Tiddische
+  const marker = new google.maps.Marker({
+    position: gemeindebüro,
+    map: map,
+  });
+}
+
+window.initMap = initMap;
+
 // const slider = new A11YSlider(document.querySelector(".slider"), {
 //   adaptiveHeight: false,
 //   dots: true,
